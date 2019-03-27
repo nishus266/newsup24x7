@@ -37,18 +37,22 @@ else{
   <button type="button" class="btn btn-danger" style="margin-top:10px;float:right;margin-right:10px;" onclick="fun(2)"><i class="fas fa-times-circle"></i></button>
 
 <div class="container" style="margin-top:30px;">
-  <form>
+  <form method="post" action="main-post.php" enctype = "multipart/form-data">
     <div class="form-group">
       <label for="exampleFormControlInput1">Title</label>
-      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Title">
+      <input type="text" class="form-control" id="exampleFormControlInput1" name="title" placeholder="Title">
     </div>
     <div class="form-group">
       <label for="exampleFormControlTextarea1">Article</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="height:250px;"></textarea>
+      <textarea class="form-control" id="exampleFormControlTextarea1" name="article" rows="3" style="height:250px;"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Category</label>
+     <input type="text" class="form-control" id="exampleFormControlInput1" name="category" placeholder="Category">
     </div>
     <div class="form-group">
     <label for="exampleFormControlFile1">Upload Image</label>
-    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+    <input type="file" class="form-control-file" id="exampleFormControlFile1" name="image">
   </div>
     <div class="form-group">
       <button type="submit" class="btn btn-primary mb-2">Submit</button>
