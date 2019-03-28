@@ -8,7 +8,7 @@
                     <div class="top-header-content d-flex align-items-center justify-content-between">
                         <!-- Logo -->
                         <div class="logo">
-                            <a href="index.html"><h1 style="font-weight:bolder;color:white;font-family:'Lato','Helvetica','comic-sans',;">Newsup24x7</h1></a>
+                            <a href="index.php"><h1 style="font-weight:bolder;color:white;font-family:'Lato','Helvetica','comic-sans',;">Newsup24x7</h1></a>
                         </div>
 
                         <!-- Login Search Area -->
@@ -57,8 +57,8 @@
                         <!-- Nav Start -->
                         <div class="classynav">
                             <ul>
-                                <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="#">राजनीति</a>
+                                <li><a href="index.php">Home</a></li>
+              <li><a href="category.php?code=100">राजनीति</a>
                  <div class="megamenu">
                   <div class="single-mega cn-col-4">
                                         <!-- Single Featured Post -->
@@ -166,7 +166,7 @@
 
                 </div>
                                 </li>
-                                <li><a href="#">खेल</a>
+                                <li><a href="category.php?code=101">खेल</a>
                                   <div class="megamenu">
                                       <div class="single-mega cn-col-4">
                                         <!-- Single Featured Post -->
@@ -260,7 +260,7 @@
 
                  </div>
                                 </li>
-                                <li><a href="#">व्यापार</a>
+                                <li><a href="category.php?code=102">व्यापार</a>
                                   <div class="megamenu">
                                       <div class="single-mega cn-col-4">
                                         <!-- Single Featured Post -->
@@ -355,7 +355,7 @@
 
                  </div>
                                 </li>
-                                <li><a href="#">टैकनोलजी</a>
+                                <li><a href="category.php?code=103">टैकनोलजी</a>
                                   <div class="megamenu">
                                       <div class="single-mega cn-col-4">
                                         <!-- Single Featured Post -->
@@ -430,7 +430,7 @@
                   </div>
                  </div>
                                 </li>
-                                <li><a href="#">स्वास्थ्य</a>
+                                <li><a href="category.php?code=104">स्वास्थ्य</a>
                                   <div class="megamenu">
                                     <div class="single-mega cn-col-4">
                                     <!-- Single Featured Post -->
@@ -502,7 +502,7 @@
                   </div>
                 </div>
                                 </li>
-                                <li><a href="#">यात्रा</a>
+                                <li><a href="category.php?code=105">यात्रा</a>
                                   <div class="megamenu">
                                     <div class="single-mega cn-col-4">
                                         <!-- Single Featured Post -->
@@ -609,7 +609,7 @@
 
                  </div>
                                 </li>
-                                <li><a href="#">मनोरंजन</a>
+                                <li><a href="category.php?code=106">मनोरंजन</a>
                                   <div class="megamenu">
                                     <div class="single-mega cn-col-4">
                                         <!-- Single Featured Post -->

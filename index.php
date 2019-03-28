@@ -65,41 +65,35 @@
 
                         <!-- Single Featured Post -->
                         <div class="col-12 col-lg-11">
-                            <div class="single-blog-post featured-post">
-                                <div class="post-thumb">
-                                    <a href="#"><img src="img/bg-img/16.jpg" style="width:80%;height:80%;" alt=""></a>
-                                </div>
-                                <div class="post-data">
-                                    <a href="#" class="post-catagory">राजनीति</a>
-                                    <a href="#" class="post-title">
-                                        <h6>शशि थरूर नोबेल शांति पुरस्कार 2019 के लिए केरल के मछुआरों को नामित करते हैं</h6>
-                                    </a>
-                                    <div class="post-meta">
-                                        <p class="post-author">- <a href="#">संवाददाता</a></p>
-                                        <p class="post-excerp"><span style="font-weight:bold;">तिरुवनंतपुरम:</span> कांग्रेस नेता शशि थरूर ने केरल के मछुआरों की सिफारिश की है, जिनके साहस के कार्य 2018 केरल बाढ़ के दौरान बचाव कार्यों के मुख्य आकर्षण थे, नोबेल शांति पुरस्कार के लिए।
+                          <?php
+                          include 'connect.php';
+                          $query = "SELECT * FROM mainpost where main='YES' order by post_id DESC LIMIT 2;";
+                          $result = mysqli_query($conn, $query);
+                          while($row = mysqli_fetch_assoc($result)) {
 
-थरूर के सांसद थरूर ने कहा, "इस त्रासदी के दौरान केरल के मछुआरों ने अपनी जान जोखिम में डालकर नावों को नुकसान पहुंचाया और उनकी आजीविका का स्रोत बनने वाली नावों को नुकसान पहुंचाया।" तिरुवनंतपुरम, नॉर्वेजियन नोबेल समिति के अध्यक्ष को लिखा।<a href="single-post.html" style="font-size:17px;text-decoration: none;color:#A13123;font-weight:bold;"> और पढो...</a></p>
+                                     echo "
+                                     <div class=\"single-blog-post featured-post\">
+                                         <div class=\"post-thumb\">
+                                             <a href=\"#\"><img src=\"".$row['image']."\" style=\"width:80%;height:80%;\" alt=\"\"></a>
+                                         </div>
+                                         <div class=\"post-data\">
+                                             <a href=\"#\" class=\"post-catagory\">राजनीति</a>
+                                             <a href=\"#\" class=\"post-title\">
+                                                 <h6>".$row['title']."</h6>
+                                             </a>
+                                             <div class=\"post-meta\">
+                                                 <p class=\"post-author\">- <a href=\"#\">संवाददाता</a></p>
+                                                 <p class=\"post-excerp\"><span style=\"font-weight:bold;\">".substr($row['article'], 0, 1000)."<a href=\"news.php?var=".$row['post_id']."\" style=\"font-size:17px;text-decoration: none;color:#A13123;font-weight:bold;\"> और पढो...</a></p>
 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-blog-post featured-post">
-                                <div class="post-thumb">
-                                    <a href="#"><img src="img/bg-img/0.jpg" alt=""></a>
-                                </div>
-                                <div class="post-data">
-                                    <a href="#" class="post-catagory">Finance</a>
-                                    <a href="#" class="post-title">
-                                        <h6>Reliance JioPhone 3 एक स्मार्टफोन होगा जिसमें 5-इंच की टच स्क्रीन, Android Go: रिपोर्ट होगी</h6>
-                                    </a>
-                                    <div class="post-meta">
-                                        <p class="post-author">- <a href="#">संवाददाता</a></p>
-                                        <p class="post-excerp">रिलायंस जियो की तीसरी पीढ़ी का JioPhone इस जुलाई में भारत में लॉन्च होने की उम्मीद है। JioPhone 3 को 4,500 रुपये का प्राइस टैग ले जाने के लिए कहा गया है, जो JioPhone सीरीज में अब तक का सबसे महंगा है। BeetelBite की एक रिपोर्ट के अनुसार, जियो के एक कार्यकारी ने आगामी JioPhone 3 के विवरण का खुलासा किया।
-<a href="#" style="font-size:17px;text-decoration: none;color:#A13123;font-weight:bold;"> और पढो...</a> </p>
+                                             </div>
+                                         </div>
+                                     </div>
+                                     ";
 
-                                    </div>
-                                </div>
-                            </div>
+                          }
+
+                           ?>
+
                         </div>
 
 

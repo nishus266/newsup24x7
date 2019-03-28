@@ -33,7 +33,7 @@ else{
          <button type="button" class="btn btn-danger" style="margin-top:10px;margin-left:5%;" onclick="fun(1)">Post Top News</button>
           <hr style="width:90%;">
 </section>
-<div id="latest" style="width:80%;margin-top:100px;height:600px;border-radius:5px;background:#cccccc;position:fixed;top:0px;left:10%;display:none;">
+<div id="latest" style="width:80%;margin-top:20px;height:700px;border-radius:5px;background:#cccccc;position:fixed;top:0px;left:10%;display:none;">
   <button type="button" class="btn btn-danger" style="margin-top:10px;float:right;margin-right:10px;" onclick="fun(2)"><i class="fas fa-times-circle"></i></button>
 
 <div class="container" style="margin-top:30px;">
@@ -48,7 +48,24 @@ else{
     </div>
     <div class="form-group">
       <label for="exampleFormControlTextarea1">Category</label>
-     <input type="text" class="form-control" id="exampleFormControlInput1" name="category" placeholder="Category">
+      <select class="form-control" id="exampleFormControlSelect1" name="category">
+          <option value="100">राजनीति</option>
+          <option value="101">खेल</option>
+          <option value="102">व्यापार</option>
+          <option value="103">टैकनोलजी</option>
+          <option value="104">स्वास्थ्य</option>
+          <option value="105">यात्रा</option>
+          <option value="106">मनोरंजन</option>
+
+        </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Main Post</label>
+      <select class="form-control" id="exampleFormControlSelect1" name="main">
+          <option value="YES">YES</option>
+          <option value="NO" selected>NO</option>
+
+        </select>
     </div>
     <div class="form-group">
     <label for="exampleFormControlFile1">Upload Image</label>

@@ -1,1 +1,4 @@
 create table mainpost(post_id int PRIMARY KEY,title varchar(2550),article varchar(20000),category varchar(255), date varchar(255), image varchar(255));
+ALTER TABLE mainpost  ADD main varchar(255);
+
+SELECT * FROM mainpost order by post_id DESC LIMIT 2;
