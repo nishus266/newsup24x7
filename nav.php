@@ -59,9 +59,9 @@
                             <ul>
                                 <li><a href="index.php">Home</a></li>
               <li><a href="category.php?code=100">राजनीति</a>
-                 <div class="megamenu">
+  <!--               <div class="megamenu">
                   <div class="single-mega cn-col-4">
-                                        <!-- Single Featured Post -->
+
                                             <div class="single-blog-post small-featured-post d-flex" >
                                                 <div class="post-thumb">
                                                     <a href="#"><img src="img/bg-img/23.jpg" alt=""></a>
@@ -78,7 +78,6 @@
                                              </div>
 
 
-                                        <!-- Single Featured Post -->
                                         <div class="single-blog-post small-featured-post d-flex">
                                            <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/24.jpg" alt=""></a>
@@ -96,7 +95,7 @@
                                     </div>
 
                                       <div class="single-mega cn-col-4">
-                                    <!-- Single Featured Post -->
+
                                         <div class="single-blog-post small-featured-post d-flex">
                                             <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/23.jpg" alt=""></a>
@@ -112,7 +111,7 @@
                                             </div>
                                         </div>
 
-                                        <!-- Single Featured Post -->
+
                                         <div class="single-blog-post small-featured-post d-flex">
                                             <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/24.jpg" alt=""></a>
@@ -130,7 +129,7 @@
                   </div>
 
                   <div class="single-mega cn-col-4">
-                                    <!-- Single Featured Post -->
+
                                         <div class="single-blog-post small-featured-post d-flex">
                                             <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/23.jpg" alt=""></a>
@@ -146,7 +145,7 @@
                                             </div>
                                         </div>
 
-                                        <!-- Single Featured Post -->
+
                                         <div class="single-blog-post small-featured-post d-flex">
                                             <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/24.jpg" alt=""></a>
@@ -164,12 +163,12 @@
 
                   </div>
 
-                </div>
+                </div> -->
                                 </li>
                                 <li><a href="category.php?code=101">खेल</a>
-                                  <div class="megamenu">
+      <!--                            <div class="megamenu">
                                       <div class="single-mega cn-col-4">
-                                        <!-- Single Featured Post -->
+
                                             <div class="single-blog-post small-featured-post d-flex" >
                                                 <div class="post-thumb">
                                                     <a href="#"><img src="img/bg-img/23.jpg" alt=""></a>
@@ -186,7 +185,7 @@
                                              </div>
 
 
-                                        <!-- Single Featured Post -->
+
                                         <div class="single-blog-post small-featured-post d-flex">
                                            <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/24.jpg" alt=""></a>
@@ -204,7 +203,7 @@
                                     </div>
 
                                       <div class="single-mega cn-col-4">
-                                    <!-- Single Featured Post -->
+
                                         <div class="single-blog-post small-featured-post d-flex">
                                             <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/23.jpg" alt=""></a>
@@ -220,7 +219,7 @@
                                             </div>
                                         </div>
 
-                                        <!-- Single Featured Post -->
+
                                         <div class="single-blog-post small-featured-post d-flex">
                                             <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/24.jpg" alt=""></a>
@@ -238,7 +237,7 @@
                   </div>
 
                   <div class="single-mega cn-col-4">
-                                    <!-- Single Featured Post -->
+
                                         <div class="single-popular-post">
                                             <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/23.jpg" alt=""></a>
@@ -258,12 +257,12 @@
 
                   </div>
 
-                 </div>
+                </div> -->
                                 </li>
                                 <li><a href="category.php?code=102">व्यापार</a>
-                                  <div class="megamenu">
+                      <!--            <div class="megamenu">
                                       <div class="single-mega cn-col-4">
-                                        <!-- Single Featured Post -->
+
                                             <div class="single-popular-post" >
                                                 <div class="post-thumb">
                                                     <a href="#"><img src="img/bg-img/23.jpg" alt=""></a>
@@ -280,12 +279,12 @@
                                              </div>
 
 
-                                        <!-- Single Featured Post -->
+
 
                                     </div>
 
                                       <div class="single-mega cn-col-4">
-                                    <!-- Single Featured Post -->
+
                                         <div class="single-blog-post small-featured-post d-flex">
                                             <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/23.jpg" alt=""></a>
@@ -301,7 +300,7 @@
                                             </div>
                                         </div>
 
-                                        <!-- Single Featured Post -->
+
                                         <div class="single-blog-post small-featured-post d-flex">
                                             <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/24.jpg" alt=""></a>
@@ -316,10 +315,10 @@
                                                 </div>
                                             </div>
                                         </div>
-                  </div>
+                  </div> -->
 
-                  <div class="single-mega cn-col-4">
-                                    <!-- Single Featured Post -->
+        <!--          <div class="single-mega cn-col-4">
+
                                         <div class="single-blog-post small-featured-post d-flex">
                                             <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/23.jpg" alt=""></a>
@@ -335,7 +334,7 @@
                                             </div>
                                         </div>
 
-                                        <!-- Single Featured Post -->
+
                                         <div class="single-blog-post small-featured-post d-flex">
                                             <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/24.jpg" alt=""></a>
@@ -353,12 +352,12 @@
 
                   </div>
 
-                 </div>
+                </div> -->
                                 </li>
                                 <li><a href="category.php?code=103">टैकनोलजी</a>
-                                  <div class="megamenu">
+              <!--                    <div class="megamenu">
                                       <div class="single-mega cn-col-4">
-                                        <!-- Single Featured Post -->
+
                                             <div class="single-blog-post small-featured-post d-flex" >
                                                 <div class="post-thumb">
                                                     <a href="#"><img src="img/bg-img/23.jpg" alt=""></a>
@@ -375,7 +374,7 @@
                                              </div>
 
 
-                                        <!-- Single Featured Post -->
+
                                         <div class="single-blog-post small-featured-post d-flex">
                                            <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/24.jpg" alt=""></a>
@@ -393,7 +392,7 @@
                                     </div>
 
                                       <div class="single-mega cn-col-4">
-                                    <!-- Single Featured Post -->
+
                                         <div class="single-popular-post">
                                             <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/23.jpg" alt=""></a>
@@ -411,7 +410,7 @@
                   </div>
 
                   <div class="single-mega cn-col-4">
-                                    <!-- Single Featured Post -->
+
                                         <div class="single-popular-post">
                                             <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/23.jpg" alt=""></a>
@@ -428,12 +427,12 @@
                                         </div>
 
                   </div>
-                 </div>
+                </div> -->
                                 </li>
                                 <li><a href="category.php?code=104">स्वास्थ्य</a>
-                                  <div class="megamenu">
+                <!--                  <div class="megamenu">
                                     <div class="single-mega cn-col-4">
-                                    <!-- Single Featured Post -->
+
                                         <div class="single-popular-post">
                                             <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/23.jpg" alt=""></a>
@@ -450,7 +449,7 @@
                                         </div>
                   </div>
                   <div class="single-mega cn-col-4">
-                                    <!-- Single Featured Post -->
+
                                         <div class="single-popular-post">
                                             <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/23.jpg" alt=""></a>
@@ -467,7 +466,7 @@
                                         </div>
                   </div>
                   <div class="single-mega cn-col-4">
-                                    <!-- Single Featured Post -->
+
                                         <div class="single-popular-post">
                                             <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/23.jpg" alt=""></a>
@@ -484,7 +483,7 @@
                                         </div>
                   </div>
                   <div class="single-mega cn-col-4">
-                                    <!-- Single Featured Post -->
+
                                         <div class="single-popular-post">
                                             <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/23.jpg" alt=""></a>
@@ -500,12 +499,12 @@
                                             </div>
                                         </div>
                   </div>
-                </div>
+                </div> -->
                                 </li>
                                 <li><a href="category.php?code=105">यात्रा</a>
-                                  <div class="megamenu">
+              <!--                    <div class="megamenu">
                                     <div class="single-mega cn-col-4">
-                                        <!-- Single Featured Post -->
+
                                             <div class="single-blog-post small-featured-post d-flex" >
                                                 <div class="post-thumb">
                                                     <a href="#"><img src="img/bg-img/23.jpg" alt=""></a>
@@ -522,7 +521,7 @@
                                              </div>
 
 
-                                        <!-- Single Featured Post -->
+
                                         <div class="single-blog-post small-featured-post d-flex">
                                            <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/24.jpg" alt=""></a>
@@ -539,7 +538,7 @@
                                         </div>
                                     </div>
                                     <div class="single-mega cn-col-4">
-                                        <!-- Single Featured Post -->
+
                                             <div class="single-blog-post small-featured-post d-flex" >
                                                 <div class="post-thumb">
                                                     <a href="#"><img src="img/bg-img/23.jpg" alt=""></a>
@@ -556,7 +555,7 @@
                                              </div>
 
 
-                                        <!-- Single Featured Post -->
+
                                         <div class="single-blog-post small-featured-post d-flex">
                                            <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/24.jpg" alt=""></a>
@@ -573,7 +572,7 @@
                                         </div>
                                     </div>
                                     <div class="single-mega cn-col-4">
-                                        <!-- Single Featured Post -->
+
                                             <div class="single-blog-post small-featured-post d-flex" >
                                                 <div class="post-thumb">
                                                     <a href="#"><img src="img/bg-img/23.jpg" alt=""></a>
@@ -590,7 +589,7 @@
                                              </div>
 
 
-                                        <!-- Single Featured Post -->
+
                                         <div class="single-blog-post small-featured-post d-flex">
                                            <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/24.jpg" alt=""></a>
@@ -607,12 +606,12 @@
                                         </div>
                                     </div>
 
-                 </div>
+                 </div> -->
                                 </li>
                                 <li><a href="category.php?code=106">मनोरंजन</a>
-                                  <div class="megamenu">
+            <!--                      <div class="megamenu">
                                     <div class="single-mega cn-col-4">
-                                        <!-- Single Featured Post -->
+
                                             <div class="single-blog-post small-featured-post d-flex" >
                                                 <div class="post-thumb">
                                                     <a href="#"><img src="img/bg-img/23.jpg" alt=""></a>
@@ -629,7 +628,7 @@
                                              </div>
 
 
-                                        <!-- Single Featured Post -->
+
                                         <div class="single-blog-post small-featured-post d-flex">
                                            <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/24.jpg" alt=""></a>
@@ -647,7 +646,7 @@
                                     </div>
 
                                       <div class="single-mega cn-col-4">
-                                    <!-- Single Featured Post -->
+
                                         <div class="single-blog-post small-featured-post d-flex">
                                             <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/23.jpg" alt=""></a>
@@ -663,7 +662,7 @@
                                             </div>
                                         </div>
 
-                                        <!-- Single Featured Post -->
+
                                         <div class="single-blog-post small-featured-post d-flex">
                                             <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/24.jpg" alt=""></a>
@@ -681,7 +680,7 @@
                   </div>
 
                   <div class="single-mega cn-col-4">
-                                    <!-- Single Featured Post -->
+
                                         <div class="single-popular-post">
                                             <div class="post-thumb">
                                                 <a href="#"><img src="img/bg-img/23.jpg" alt=""></a>
@@ -697,8 +696,13 @@
                                             </div>
                                         </div>
                                     </div>
-                 </div>
+                 </div> -->
+
                                 </li>
+                               <li><a href="category.php?code=107">शिक्षा</a>
+                               </li>
+                               <li><a href="category.php?code=108">अंतरराष्ट्रीय</a>
+                               </li>
                                 <li><a href="#">संपर्क करे </a></li>
 
                             </ul>

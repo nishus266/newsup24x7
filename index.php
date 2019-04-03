@@ -33,9 +33,15 @@
                         </div>
                         <div id="breakingNewsTicker" class="ticker">
                             <ul>
-                                <li><a href="#">प्रियंका गांधी वाड्रा कांग्रेस मुख्यालय में श्री गणेश करती हैं</a></li>
-                                <li><a href="#">बसपा-सपा पिछले चार लोकसभा चुनावों में यूपी की इन 11 सीटों को जीतने में नाकाम रही है</a></li>
-                                <li><a href="#">SC में, मंदिर बोर्ड सबरीमाला में महिलाओं के प्रवेश का समर्थन करता है</a></li>
+                              <?php
+                              include 'connect.php';
+                              $query = "SELECT * FROM mainpost order by post_id DESC LIMIT 2;";
+                              $result = mysqli_query($conn, $query);
+                              while($row = mysqli_fetch_assoc($result)) {
+                                echo "
+                                <li><a href=\"news.php?var=".$row['post_id']."\">".$row['title']."</a></li>";
+                              }
+                              ?>
                             </ul>
                         </div>
                     </div>
@@ -47,10 +53,16 @@
                         </div>
                         <div id="internationalTicker" class="ticker">
                             <ul>
-                                <li><a href="#">भारत सुनिश्चित करता है कि कश्मीर पर पाकिस्तान का लंदन कार्यक्रम एक फ्लॉप शो बन जाए</a></li>
-                                <li><a href="#">पेरिस क्षेत्र में भारी आग, 8 की मौत</a></li>
-                                <li><a href="#">यह अमेरिकी राज्य 100 के तहत किसी के लिए सिगरेट पर प्रतिबंध लगाना चाहता है</a></li>
-                            </ul>
+                              <?php
+                              include 'connect.php';
+                              $query = "SELECT * FROM mainpost where category=108 order by post_id DESC LIMIT 3;";
+                              $result = mysqli_query($conn, $query);
+                              while($row = mysqli_fetch_assoc($result)) {
+                                echo "
+                                <li><a href=\"news.php?var=".$row['post_id']."\">".$row['title']."</a></li>";
+                              }
+                              ?>
+                              </ul>
                         </div>
                     </div>
                 </div>
@@ -70,6 +82,24 @@
                           $query = "SELECT * FROM mainpost where main='YES' order by post_id DESC LIMIT 2;";
                           $result = mysqli_query($conn, $query);
                           while($row = mysqli_fetch_assoc($result)) {
+                            if($row['category']==100)
+                              $category="राजनीति";
+                            if($row['category']==101)
+                              $category="खेल";
+                            if($row['category']==102)
+                              $category="व्यापार";
+                            if($row['category']==103)
+                              $category="टैकनोलजी";
+                            if($row['category']==104)
+                              $category="स्वास्थ्य";
+                            if($row['category']==105)
+                              $category="यात्रा";
+                            if($row['category']==106)
+                              $category="मनोरंजन";
+                            if($row['category']==107)
+                              $category="शिक्षा";
+                            if($row['category']==108)
+                              $category="अंतरराष्ट्रीय";
 
                                      echo "
                                      <div class=\"single-blog-post featured-post\">
@@ -77,12 +107,12 @@
                                              <a href=\"#\"><img src=\"".$row['image']."\" style=\"width:80%;height:80%;\" alt=\"\"></a>
                                          </div>
                                          <div class=\"post-data\">
-                                             <a href=\"#\" class=\"post-catagory\">राजनीति</a>
+                                             <a href=\"#\" class=\"post-catagory\">".$category."</a>
                                              <a href=\"#\" class=\"post-title\">
                                                  <h6>".$row['title']."</h6>
                                              </a>
                                              <div class=\"post-meta\">
-                                                 <p class=\"post-author\">- <a href=\"#\">संवाददाता</a></p>
+                                                 <p class=\"post-author\">- <a href=\"#\">".$row['date']."</a></p>
                                                  <p class=\"post-excerp\"><span style=\"font-weight:bold;\">".substr($row['article'], 0, 1000)."<a href=\"news.php?var=".$row['post_id']."\" style=\"font-size:17px;text-decoration: none;color:#A13123;font-weight:bold;\"> और पढो...</a></p>
 
                                              </div>
@@ -337,39 +367,25 @@
                     <!-- Popular News Widget -->
                     <div class="popular-news-widget mb-30">
                         <h3>4 सबसे लोकप्रिय समाचार</h3>
+                        <?php
+                        include 'connect.php';
+                        $query = "SELECT * FROM mainpost where main='YES' order by post_id DESC LIMIT 4;";
+                        $result = mysqli_query($conn, $query);
+                        $counter=1;
+                        while($row = mysqli_fetch_assoc($result)) {
 
-                        <!-- Single Popular Blog -->
-                        <div class="single-popular-post">
-                            <a href="#">
-                                <h6><span>1.</span> Amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales.</h6>
-                            </a>
-                            <p>April 14, 2018</p>
+                          echo "
+                          <div class=\"single-popular-post\">
+                              <a href=\"\">
+                                  <h6><span>".$counter.".</span>".$row['title']."</h6>
+                              </a>
+                              <p>".$row['date']."</p>
+                          </div>
+                          ";
+                          $counter=$counter+1;
+                        }
+                        ?>
                         </div>
-
-                        <!-- Single Popular Blog -->
-                        <div class="single-popular-post">
-                            <a href="#">
-                                <h6><span>2.</span> Consectetur adipiscing elit. Nam eu metus sit amet odio sodales placer.</h6>
-                            </a>
-                            <p>April 14, 2018</p>
-                        </div>
-
-                        <!-- Single Popular Blog -->
-                        <div class="single-popular-post">
-                            <a href="#">
-                                <h6><span>3.</span> Adipiscing elit. Nam eu metus sit amet odio sodales placer. Sed varius leo.</h6>
-                            </a>
-                            <p>April 14, 2018</p>
-                        </div>
-
-                        <!-- Single Popular Blog -->
-                        <div class="single-popular-post">
-                            <a href="#">
-                                <h6><span>4.</span> Eu metus sit amet odio sodales placer. Sed varius leo ac...</h6>
-                            </a>
-                            <p>April 14, 2018</p>
-                        </div>
-                    </div>
 
 
                 </div>

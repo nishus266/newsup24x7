@@ -14,6 +14,10 @@ if($code==105)
   $category="यात्रा";
 if($code==106)
   $category="मनोरंजन";
+if($code==107)
+  $category="शिक्षा";
+if($code==108)
+  $category="अंतरराष्ट्रीय";
 
 ?>
 <!DOCTYPE html>

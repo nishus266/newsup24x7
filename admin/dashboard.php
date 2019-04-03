@@ -56,7 +56,8 @@ else{
           <option value="104">स्वास्थ्य</option>
           <option value="105">यात्रा</option>
           <option value="106">मनोरंजन</option>
-
+          <option value="107">शिक्षा</option>
+          <option value="108">अंतरराष्ट्रीय</option>
         </select>
     </div>
     <div class="form-group">
